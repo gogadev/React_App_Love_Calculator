@@ -28,7 +28,7 @@ class LoveCalculator extends Component {
     const config = {
       headers: {
         "x-rapidapi-host": "love-calculator.p.rapidapi.com",
-        "x-rapidapi-key": "5095caa16amshf91d92b51302864p173a16jsn6d22e1b47f5e",
+        "x-rapidapi-key": "Enter_Your_Api_Key",
       },
     };
     axios
