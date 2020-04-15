@@ -1,0 +1,67 @@
+.love-calc {
+  width: 90vw;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.title {
+  width: 94vw;
+  margin: 1rem auto;
+  background: pink;
+  outline: 1px solid pink;
+  outline-offset: 4px;
+  letter-spacing: 3px;
+}
+
+.img {
+  width: 13%;
+  margin: 0 auto;
+}
+
+.hand-img {
+  margin: 0 auto;
+  transform: rotate(180deg);
+}
+
+.form {
+  width: 100%;
+  display: grid;
+}
+
+.form input {
+  margin: 1rem auto;
+  width: 60%;
+  border: none;
+  border-bottom: 1px solid grey;
+  outline: 0;
+}
+
+.form input::placeholder {
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.message {
+  width: 60%;
+  background: lightpink;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  padding: 0.2rem;
+  margin: 0.2rem auto;
+  outline: 1px solid pink;
+  outline-offset: 1px;
+}
+
+.btn {
+  width: 60%;
+  margin: 1rem auto;
+  padding: 0.3rem;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  outline: 1px solid lightgray;
+  outline-offset: -5px;
+  cursor: pointer;
+}

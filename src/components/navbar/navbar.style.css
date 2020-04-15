@@ -1,0 +1,22 @@
+nav {
+  width: 95vw;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  margin: 2rem auto;
+  background: whitesmoke;
+  outline: 1px solid lightgrey;
+  outline-offset: -10px;
+}
+
+.nav-title {
+  font-size: 2.5rem;
+  text-align: center;
+  letter-spacing: 6px;
+  padding: 0.3rem;
+}
+
+.img-title {
+  width: 10%;
+  transform: translateY(0.4rem);
+}
